@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Tentang Form</title>
+</head>
+<body>
+	<form>
+	<!-- Membuat form diawali dengan tag <form> ... </form>. dan semua elemen elemen form harus berada ditengan tag form.
+	Elemen - elemen yang ada pada form ada banyak. namun yang seringkali digunakan adalah elemen dibawah:
+	1. input 		= untuk membuat input Teks (seperti Entry pada tkinter python) 
+	2. textarea 	= untuk membuat input teks multiline (seperti Text pada tkinter python)
+	3. button 		= untuk membuat Tombol
+	4. label  		= untuk membuat Label
+	5. select 		= untuk membuat listbox-->
+
+
+	<!-- INPUT -->
+	<!-- pada elemen input, memiliki beberapa type yaitu:
+			1. text      	= untuk membuat input Teks
+			2. password		= untuk membuat input password
+			3. radio		= untuk membuat input radiobutton
+			4. checkbox		= untuk membuat input checkbox
+
+	
+	<!-- Membuat input type : text -->
+	<label for="Nama">Username</label>
+	<input type="text" name="Username" id="Nama">
+	<br><br>
+
+	<!-- Penjelasan
+		 "for" dan "id" berfungsi agar label Nama dan input text Nama menjadi satu pasangan(terhubung) kalau nilai for = Nama, maka nilai id juga harus sama-->
+
+	
+	<!-- Membuat input type password  -->
+	<label for="Pass">Password</label>
+	<input type="password" name="Password" id="Pass">
+	<br><br>
+
+
+	<!-- Membuat input type radio -->
+	<input type="radio" name="jenis kelamin" for="jenis1"> <label id="jenis1">pria</label>
+	<input type="radio" name="jenis kelamin" for="jenis2"> <label id="jenis2">wanita</label>
+	<br><br>
+
+
+	<!-- Membuat input type checkbox -->
+	<input type="checkbox" name="hobi" id="hobi1"><label for="hobi1">Programing</label>
+	<input type="checkbox" name="hobi" id="hobi2"><label for="hobi2">Game</label>
+	<input type="checkbox" name="hobi" id="hobi3"><label for="hobi3">Badiminton</label>
+	<br><br>
+
+
+	<!-- TEXTAREA -->
+	<textarea></textarea>
+	<br><br>
+
+
+
+	<!-- SELECT (listbox, atau combobox) -->
+	<select>
+		<option>Sales</option>
+		<option>AfterSales</option>
+		<option>Administration</option>
+
+	</select>
+	<br><br>
+
+
+	<!-- BUTTON -->
+	<!-- Button mempuyai 3 type yaitu :
+		 1. submit
+		 2. reset
+		 3. button 
+		 Cara membuatnya lihat dibawah ini-->
+
+	<button type="submit">Create</button>
+
+	</form>
+
+
+	<!-- Dibawah ini adalah link untuk mempelajari dokumentasi HTML -->
+	<br><br>
+	<p>klik <a href="https://www.w3schools.com/">link ini</a> untuk mempelajari dokumentasi HTML lebih lanjut</p>
+
+</body>
+</html>

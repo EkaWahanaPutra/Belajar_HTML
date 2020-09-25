@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Hyperlink</title>
+</head>
+<body>
+	<!-- Hyperlink pada html dibuat dengan tag <a>...</a> (tag anchor) 
+	cara penulisannya adalah sebagai berikut-->
+
+	<p>klik <a href="file:///usr/share/kali-defaults/web/homepage.html">disini</a> untuk menuju website Kali Linux</p>
+
+	<!-- 
+	Ketika menggunakan tag anchor, <a>...</a>, maka harus menggunaka atribut "href" = << sumber link >>  seperti contoh diatas.
+	
+	Untuk sumber link, anda bisa menggunakan sumber external seperti link untuk menuju google, facebook, yahoo, dll. Selain sumber eksternal, anda juga bisa menggunakan sumber internal dari dalam komputer anda seperti contoh dibawah ini. Dimana saya akan membuat 2 buah halaman web html dimana keduanya saling menautkan link kehalaman masing masing-->
+
+	<p>Ini adalah hyperlink dengan menggunakan link internal. Klik <a href="Hyperlink2.html">halaman selanjutnya</a></p><hr>
+
+	<!-- Selain link internal dan link eksternal, pada html juga terdapat relative url
+	Contoh Kasus : Saya memiliki folder 
+		"7_Hyperlink " di dalam folder ada Hyperlink1.html & Hpyerlink2.html dan folder "Folder". 
+		di dalam folder "Folder" terdapat Hyperlink3.html saya akan membuat link menuju Hyperlink3 di dalam folder "Folder". Caranya seperti dibawah :-->
+
+	<br>
+	<p>link dibawah akan menuju halaman Hyperlink3 pada folder "Folder"</p>
+	<p>link <a href="Folder/Hyperlink3.html">Hyperlink3</a></p>
+
+
+	<!--Cara membuat link untuk menuju pada sebuah bagia di halaman yang sama, lihat caranya di file "Page_Anchor.html" -->
+
+
+	<!-- Kemudian kita akan membuat sebuah link untuk menuju halaman "Page_Anchor.html" di "Bagian 3" pada halaman tersebut. caranya adalah sebagai berikut : -->
+	<hr>
+	<p><a href="Page_Anchor.html#Bagian3">link ini</a> akan menuju halaman "Page_Anchor.html di Bagian 3</p>
+
+
+	<!-- Ketika kita mengklik sebuah link untuk menuju halaman web yang lain, maka secara default halaman web yang baru akan menggantikan halaman web yang baru. Agar ketika di klik, halaman web yang baru membuka tab baru kita harus menggunakan atribut. Adapun atribut yang terdpat adalah :
+	1. _self ==>> atribut default
+	2. _blank ==>> untuk membuka tab baru
+	3. _parent ==>> akan dibahas nanti
+	4. _top ==>> akan dibahas nanti
+
+	Berikut adalah contoh penggunaannya-->
+	<hr>
+	<p>Buka Hyperlink2.html dengan klik <a href="Hyperlink2.html" target="_blank">disini </a>dan buka TAB Baru</p>
+
+	<!-- Pada materi kedepan, akan membahas tentang hyperlink Images -->
+
+	<!-- SELESAI -->
+
+</body>
+</html>

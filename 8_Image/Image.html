@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Image</title>
+</head>
+<body>
+	<!-- Materi kali ini akan membahas tentang bagaimana caranya menyimpan sebuah image pada page html. Tag yang akan kita pakai adalah Tag <img src=""> src adalah source / sumber image yang akan kita pakai. -->
+	
+	<!-- Berikut adalah contoh cara mengambil image dari internal resource -->
+	<img src="kali_small.png">
+
+	<!-- tag <img src=""> memiliki beberapa atribut yaitu :
+	src = untuk menampilkan image dari source/sumber internal
+	alt = untuk menampilkan alternative teks jika image yang kita tampilkan tidak bisa dibuka pada web browser 		  karena alasan tertentu 
+	title = untuk memberi judul pada gambar
+	widht = untuk mengatur panjang gambar dalam pixel
+	height = untuk mengatur tinggi image dalam pixel-->
+
+
+	<!-- Penggunaan atribut title. Lihat halaman image2 -->
+	<p>Hasil penggunaan atribut title lihat halaman <a href="Image2.html">Image2</a></p>
+
+	<!-- Penggunaan atribut widht dan height dapat digunakan salah satunya saja maupun keduanya sekaligus.
+	jika anda hanya menggunakan salah satu saja, maka salah satunya akan otomatis menyesuaikan sesuai aspect ratio dari image.
+	namun jika anda menggunakan kedua duanya, maka ukuran image akan sesuai dengan ukuran width dan height yang kita berikan. Dan resikonya gambar kemungkinan tidak akan mengikuti aspect ratio defaultnya. maka berhati hatilah ketika menggunakan kedua duanya -->
+
+	<!-- Ketika menggunakan width dan height kita memiliki 2 jenis satuan yang dapat digunakan yaitu:
+	pxl = pixel secara default jika anda mngetikan angka saja , maka ukuran image akan menjadi pixel
+	% = dengan menuliskan %, maka ukuran gambar akan menjadi persentase dari ukuran halamannya, sehingga jika layar anda kecilkan, maka image akan berusaha menyesuaikan sesuai persentase dari ukuran halamannya
+	
+	Untuk Penggunaannya lihat file Image3.html-->
+
+	<p>Hasil Penggunaannya atribut width dan height <a href="Image3.html">Image3</a> </p>
+
+
+	<!-- Menggunaka image sebagai hyperlink -->
+	<p>menggunakan image sebagai hyperlink, klik <a href="Image4.html">Image4.html</a></p>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Table Merging</title>
+</head>
+<body>
+	<!-- Kali ini kita akan belajar Table Merging. Untuk membuat Merging pada tabel, html menyediakan 2 atribut, yaitu:
+	1. colspan = adalah atribut untuk menggabungkan 2 atau lebih kolom
+	2. rowspan = adalah atribut untuk menggabungkan 2 atau lebih baris
+
+	Perhatikan cara membuatnya : dibawah ini. -->
+
+	<!-- Untuk memudahkan pembelajaran, langkah pertama kita buat dulu sebuah tabel biasa untuk refresh materi sebelumnya -->
+	<p><b>TABEL 1</b><i>(Biasa)</i></p>
+	<table border="1" cellspacing="1" cellpadding="5">
+		<tr>
+			<td>A1</td>
+			<td>B1</td>
+			<td>C1</td>
+		</tr>
+		<tr>
+			<td>A2</td>
+			<td>B2</td>
+			<td>C2</td>
+		</tr>
+		<tr>
+			<td>A3</td>
+			<td>B3</td>
+			<td>C3</td>
+		</tr>
+	</table>
+
+
+
+	<!-- Langkah kedua, tabel diatas akan kita merging pada cell A1 dan B1 -->
+	<p><b>TABEL 2</b><i>(dengan atribut colspan)</i></p>
+	<table border="1" cellspacing="1" cellpadding="5">
+		<tr>
+			<td colspan="2">AB1</td>
+			<td>C1</td>
+		</tr>
+		<tr>
+			<td>A2</td>
+			<td>B2</td>
+			<td>C2</td>
+		</tr>
+		<tr>
+			<td>A3</td>
+			<td>B3</td>
+			<td>C3</td>
+		</tr>
+	</table>
+	<p>tabel diatas adalah tabel dengan cell A1 dan B1 yang di merging dengan atribut colspan menjadi cell AB1</p>
+	<!-- Lihatlah pada line 39 tentang cara penulisan atribut colspan. angka "2" mengindikasikan bahwa cell yang dimerging aalah 2 buah cell -->
+
+
+
+	<!-- Langkah ketiga adalah membuat merging dengan rowspan -->
+	<p><b>TABEL 2</b><i>(dengan atribut rowspan)</i></p>
+	<table border="1" cellspacing="1" cellpadding="5">
+		<tr>
+			<td rowspan="3">A123</td>
+			<td>B1</td>
+			<td>C1</td>
+		</tr>
+		<tr>
+			<td>B2</td>
+			<td>C2</td>
+		</tr>
+		<tr>
+			<td>B3</td>
+			<td>C3</td>
+		</tr>
+	</table>
+	<p>Tabel diatas adalah cell A1, A2, & A3 yang dimerging dengan rowspan menjadi cell A123</p>
+
+	<!-- Sekian materi ini, untuk lebih mempelajarinya, silahkan berexperimen dengan kedua atribut tersebut. Dan lihatlah latihan pada file Latihan.html -->
+
+</body>
+</html>

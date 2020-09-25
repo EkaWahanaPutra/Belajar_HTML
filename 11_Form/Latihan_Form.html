@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan Merapikan Form</title>
+</head>
+<body>
+	<!-- Tanpa CSS, sebenarnya kita bisa merapikan form pada html menggunakan table. seperti contoh gambar dibawah ini -->
+	<p>Buatlah Form seperti gambar dibawah ini</p>
+	<img src="Soal_Latihan_Form.png" width="20%">
+	<br><br>
+
+
+	<!-- Cara Membuatnya -->
+	<p>Dibawah ini adalah form yang dibuat dengan tabel</p>
+	<br>
+
+
+	<table border="0" cellspacing="0" cellpadding="1">
+		<tr>
+			<td><label for="teks">Text :</label></td>
+			<td><input type="Text" name="Input_Teks" id="teks"></td>
+		</tr>
+		<tr>
+			<td><label for="sandi">Password :</label></td>
+			<td><input type="Password" name="Input_Pass" id="sandi"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<label for="radio_button">Radio 1</label><input type="Radio" name="Input_Rad" id="radio_button">
+				<label for="radio_button">Radio 2</label><input type="Radio" name="Input_Rad" id="radio_button">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<label for="Cek_List">CheckBox 1</label><input type="CheckBox" name="Cek" id="Cek_List">
+				<label for="Cek_List">CheckBox 2</label><input type="CheckBox" name="Cek" id="Cek_List">
+				
+			</td>
+		</tr>
+		<tr>
+			<td><label>ComboBox</label></td>
+			<td><select>
+				<option>Angka 1</option>
+				<option>Angka 2</option>
+			</select></td>
+		</tr>
+		<tr>
+			<td><label>TextArea</label></td>
+			<td> <textarea></textarea> </td>
+		</tr>
+		<tr>
+			<td colspan="2"><button type="submit">Tombol</button></td>
+		</tr>
+
+	</table>
+
+</body>
+</html>
